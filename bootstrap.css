@@ -1,0 +1,268 @@
+.top-bar{
+	background: #2953a3;
+	line-height: 40px;
+	color: white;
+}
+.orang{
+	color: orange;
+}
+.white{
+	color: white;
+}
+.blue{
+color: #2953a3!important;	
+}
+.landing{
+	height: 650px;
+	background: pink;
+	align-content: center;
+	line-height: 50px;
+}
+.landing h2{
+	line-height: 50px;
+
+}
+.caption{
+	padding-top: 150px;
+	/*display: flex;*/
+	align-items: center;
+}
+
+.orange{
+	padding: 0px 15px!important;
+	color: pink!important;
+	background:#ff8e32!important;
+	color: pink;
+}
+.orange:hover{
+	color: white!important;
+	text-shadow: 0px 0px 2px #ff8e32!important;
+}
+
+/*section 1*/
+#section1{
+	height: 750px;
+}
+@media screen and (max-width:991px) {
+	#section1{
+		height: 1000px;
+	}}
+@media screen and (max-width:768px){
+	#section1{
+		height: 1400px;
+	}}
+.card-top1{
+	background:linear-gradient(orange, #ff8e32);
+	height: 150px;
+}
+.card-top2{
+	background-color: linear-gradient(aqua	,blue);
+	    background: linear-gradient(#578ba2,#4b4f78);	
+	height: 150px;
+}
+/*section2*/
+#Section2{
+	height: 650px;
+background:linear-gradient(#51a6e7,#277ec1,#0d459b);
+}
+@media screen and (max-width:768px){
+#Section2{	height: 1000px;
+}}
+.depart-list{
+	height: 550px;	
+	min-height: 550px;
+	margin-top: -90px;
+	border-radius: 10px;
+	/*color: white;	*/
+	height: 400px;
+	background:#083791;
+}
+.depart-list p{
+	line-height: 30px;
+}
+.depart-list h3{
+	padding-top:50px; 
+}
+.team{
+	padding-left: 50px;
+	padding-top: 150px;
+	line-height: 50px;
+}
+/*section3*/
+#section3{
+	margin-top: 100px;
+}
+.provide{
+	width: 300px;
+}
+.provide p{
+	padding-top: 25px;
+	text-align: justify;	
+
+}
+/* section4 */
+#section4{
+	height: 600px;
+	background: #083791;
+}
+@media screen and (max-width:991px){
+	#section4{
+		height:1100px;
+	}
+}
+@media screen and (max-width:768px){
+	#section4{
+		height:2000px;
+	}
+}
+.sec4-cap{
+	color: white;
+	margin-top: 50px;
+	padding-top: 150px;
+}
+.sec4-cap h3{
+	padding-top: 50px;
+}
+.cards .card{
+	height: 400px;
+	background:linear-gradient(#70cbfe,#7395d6);
+	color:white;
+}
+.cards .card i{
+	background: #2953a3;
+	padding:5px;
+	border-radius: 0.5rem;
+}
+.cards .card i:hover{
+	background: #ff8e32;
+}
+.cardtext{
+	padding-top:20px;	
+}
+.card-body b{
+	padding: 50px auto;
+}
+
+/* Section 5 */
+.sec5-btn{
+	position: relative;
+	margin-top: 150px;
+}
+.whyus{
+	margin-top: 100px;
+}
+.sec5-cards img{
+	float:left;
+	width: 80px;
+}
+.counter{
+	background:#e5efff;
+	height: 350px;
+	padding-top: 150px;
+
+}
+@media screen and (max-width:768px){
+.counter{
+	height: 550px;
+}
+}
+.sec6{
+	height:750px;
+	background: linear-gradient(to right,#626264,#dfe0e3);
+}
+@media screen and (max-width:768px;){
+	.sec6{
+		height: 900px;
+	}
+}
+.frequently-question{
+	padding-top: 130px;
+}
+
+.sec7{
+	padding-top: 150px;
+	line-height: 40px;
+	height: 1000px;
+}
+@media screen and ( max-width:678px;){
+	.sec7{
+		height:1500px;
+		background: red;
+		padding-top:50px; 
+	}}
+.cards-sec7{
+	padding-top:50px;
+}
+.card1{
+	height: 350px;
+}
+.blank{
+	background: #acacac;
+	height: 200px;
+}
+.date{
+	background: blue;
+	width: 50px;
+	float: left;
+	margin-top: -20px;
+	margin-left:2px;
+	margin-right: 10px;
+	color: white;
+	text-align: center;
+	border-radius: 5px; 
+}
+.cards-body{
+	padding: 0 20px;
+}
+.cards-body h5{
+padding-top: 20px;
+}
+/*Start Section 8*/
+.sec8{
+	height:650px;
+	background:linear-gradient(to right ,#4a9fce,#305395);
+}
+@media screen and (max-width:768px){
+	.apartment-form{
+		float: none;
+		margin-top:50px;
+	}
+	.sec8{
+		height: 1000px;
+	}
+}
+.text-8{
+	color: white;
+	padding-top: 50px;
+}
+.apartment-form{
+	float: right;
+	margin-top:-100px;
+	background: #083791;
+	width: 350px;
+	height: 550px;
+	padding: 30px;
+	color:white;
+	border-radius: 10px;
+}
+.apartment-form h3{
+	padding-top: 30px;
+}
+.apartment-form input{
+	border-radius: 5px;
+	height: 40px;
+	width:300px; 
+	margin-bottom: 20px;
+
+}
+.sub{
+	line-height:40px !important;
+	color: white !important;
+	cursor: pointer;
+	padding: 10px !important;
+	border-radius:5px;
+}
+.footer{
+	display: flex;
+		justify-content: space-between;
+}
